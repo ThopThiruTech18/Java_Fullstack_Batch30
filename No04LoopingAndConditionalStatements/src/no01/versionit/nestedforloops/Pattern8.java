@@ -1,14 +1,14 @@
 package no01.versionit.nestedforloops;
 
-public class Pattern1 {
+public class Pattern8 {
 
 	public static void main(String[] args) {
 
-		for (char i = 'a'; i <= 'f'; i++) {
+		for (int i = 1; i <= 5; i++) {
 
-			for (char j = 'a'; j <= 'f'; j++) {
+			for (int j = 1; j <= i; j++) {
 
-				System.out.print(" w ");
+				System.out.print(j);
 
 			}
 
